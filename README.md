@@ -60,8 +60,8 @@ python nayiri_scraper.py
 - **Save Directory**: Where to save the downloaded files and resulting PDF
 
 ## Building from Source
-
-To create a standalone executable:
+You can simply download the .exe file here: ```/GUI/Nayiri.exe```
+But if you want to edit the code and to create a standalone executable:
 
 1. Install PyInstaller:
 ```bash
