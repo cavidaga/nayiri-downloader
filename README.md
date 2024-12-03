@@ -28,7 +28,7 @@ A desktop application to download and convert dictionary pages from Nayiri.com i
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/nayiri-downloader.git
+git clone https://github.com/cavidaga/nayiri-downloader.git
 cd nayiri-downloader
 ```
 
