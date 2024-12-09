@@ -189,7 +189,7 @@ class NayiriScraperApp:
                         self.status.set(f"Downloading page {page}...")
                         self.log_message(f"Downloading image to {output_path}...")
                         self.download_image(session, image_url, output_path)
-                        time.sleep(random.uniform(1, 3))
+                        time.sleep(random.uniform(1, 10))
                     else:
                         self.status.set(f"Image not found for page {page}.")
                         self.log_message(f"No image found for page {page}.")

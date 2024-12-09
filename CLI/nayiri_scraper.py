@@ -53,7 +53,7 @@ def scrape_dictionary(start_page, end_page, dictionary_id, output_dir):
                     output_path = os.path.join(output_dir, f"page_{page:03}.jpg")
                     print(f"Downloading {image_url} to {output_path}...")
                     download_image(session, image_url, output_path, referer_url)
-                    time.sleep(random.uniform(1, 3))  # Mimic human behaviour
+                    time.sleep(random.uniform(1, 10))  # Mimic human behaviour
                 else:
                     print(f"Image not found for page {page}.")
             except requests.RequestException as e:
